@@ -24,8 +24,6 @@ ist hier die Installation unter Ubuntu 20.04:
 ```bash
 wget -L https://mirrors.ctan.org/macros/latex/contrib/jura.zip
 unzip jura.zip
-#mv jura/jura.dtx .
-#mv jura/jura.ins .
 mv jura/* .
 rm -rf jura
 latex jura.ins
